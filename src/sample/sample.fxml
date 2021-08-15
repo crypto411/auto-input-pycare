@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="369.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="inputField" layoutX="101.0" layoutY="71.0" prefHeight="214.0" prefWidth="409.0" />
+      <Button fx:id="submitBtn" layoutX="279.0" layoutY="324.0" mnemonicParsing="false" text="Submit" />
+      <Label layoutX="223.0" layoutY="41.0" text="AUTO INPUT PROGRAM">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePick" layoutX="7.0" layoutY="10.0" />
+      <Button fx:id="dirSelectionBtn" layoutX="379.0" layoutY="292.0" mnemonicParsing="false" text="Select Folder" />
+      <TextField fx:id="selectedDir" disable="true" layoutX="148.0" layoutY="292.0" prefHeight="25.0" prefWidth="220.0" />
+   </children>
+</Pane>
